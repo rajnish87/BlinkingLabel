@@ -9,9 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'BlinkingLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BlinkingLabel.'
+  s.summary          = 'A subclass on UILabel that provides a blink.'
 
-# This description is used to generate tags and improve search results.
+#This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/BlinkingLabel'
+  s.homepage         = 'https://github.com/rajnish87/BlinkingLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rajnish Kumar' => 'rajnish.kumar@hungama.com' }
